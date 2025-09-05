@@ -1,0 +1,12 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+    "psycopg2-binary==2.9.9",
+    "pydantic>=2.11.7",
+    "redis[hiredis]>=6.4.0",
+]
