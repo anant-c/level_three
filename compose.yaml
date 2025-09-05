@@ -1,6 +1,6 @@
 services:
   app:
-    image: localhost:5000/fastapi-app:prod
+    image: anant2002/docker_level_three:fastapi_prod
     env_file:
       - .env 
     depends_on:
